@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/BroadCity_pattern.jpg);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Just Another Hand', cursive;
+    color: #FC0FC0;
+    height: 100%;
+}
+
+#container {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    overflow: auto;
+    background-color: black;
+    text-align: center;
+}
+
+#emptyInside {
+    color: peachpuff;
+}
+
+#bgimg {
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 54px;
+}
+
+p {
+    font-size: 32px;
+}
+
+#word {
+    letter-spacing: 250%;
+}
+
+#pleft {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+}
+
+#pright {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+}

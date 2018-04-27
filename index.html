@@ -5,23 +5,36 @@
         
         <title>Broad City Hangman</title>
 
-        <!-- link to CSS file here -->
+        <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
+
     <body>
-        <h1>Hangman</h1>
+        <div id="container">
+            <header>
+                <img id="bgimg" src="assets/images/Broad_City_Logo.gif" alt="Broad City Image"/>
+            </header>
 
-        <p>Instructions</p>
+            <p>Press any letter key to guess the "Broad City" word!</p>
 
-        <h2><span id="word">random word</span></h2>
+            <h2><span id="word"></span></h2>
 
-        <p>Letters Guessed:<span id="lettersGuessed"></span></p>
-        <p>Coolness Points:<span id="points"></span></p>
+            <p><span id="emptyInside"></span></p>
 
-        <p><span id="win">YYAS KWEEN!</span></p>
-        <p><span id="lose">BAD TRIP!</span></p>
-
-    <script>
-        // link to javascript file here
-    </script>
+            <p>Letters Guessed: <span id="lettersGuessed"></span></p>
+    
+            <div>
+                <p id="pleft">Coolness Points:  
+                    <br>
+                    <span id="points">10</span>
+                </p>
+                <p id="pright">Wins: 
+                    <br>
+                    <span id="wins">0</span>
+                </p>
+            </div>
+        </div>
+    
+    <script src="assets/javascript/game.js"> </script>
     </body>
 </html>
